@@ -24,6 +24,7 @@ from keras.utils import generic_utils
 # gpu setting
 if 'tensorflow' == K.backend():
     import tensorflow as tf
+   
 from keras.backend.tensorflow_backend import set_session
 config2 = tf.ConfigProto()
 config2.gpu_options.allow_growth = True

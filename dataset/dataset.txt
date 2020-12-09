@@ -1,0 +1,2 @@
+./testImages/test1.png,215,312,279,391,pedestrian
+./testImages/test1.png,315,212,479,191,bird

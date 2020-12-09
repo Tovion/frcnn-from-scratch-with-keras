@@ -261,4 +261,8 @@ Use tf.cast instead.
 ```
 
 
-
+##################
+To test 
+python test_frcnn.py --network vgg  --path ./dataset/testImages --write
+you can add load as well to specifiy from where the model is loaded
+default is the file cauled model_frcnn.hdf5 in the overal folder
